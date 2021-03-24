@@ -1,7 +1,10 @@
 public class FizzBuzz {
     public static void main(String[] args) {
         FizzBuzz myJavaFizz = new FizzBuzz();
-        myJavaFizz.fizzBuzz(100);
+        System.out.println(myJavaFizz.fizzBuzz(17));
+        System.out.println(myJavaFizz.fizzBuzz(15));
+        System.out.println(myJavaFizz.fizzBuzz(3));
+        System.out.println(myJavaFizz.fizzBuzz(5));
     }
 
     public static String fizzBuzz(int number) {
